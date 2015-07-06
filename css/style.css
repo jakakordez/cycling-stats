@@ -1,0 +1,230 @@
+.wrapper{
+	width:900px;
+	margin:auto;
+}
+
+.section{
+	padding:10px;
+	position:relative;
+}
+
+h1{
+	font-size:72px;
+}
+
+h2{
+	font-size:32px;
+	margin-left:20px;
+}
+
+.graph{
+	width:800px;
+	height:400px;
+	display:block;
+	margin:30px 40px;
+}
+
+.stats{
+	padding: 0px 90px;
+}
+
+.stat{
+	cursor:pointer;
+	width:150px;
+	height:150px;
+	display:inline-block;
+	background:lightgray;
+	vertical-align:top;
+	position:relative;
+	margin: 10px;
+}
+
+.statText{
+	display:block;
+	position:absolute;
+	text-align:center;
+	width:100%;
+	top:10px;
+	height:30px;
+}
+
+.statText>span{
+	position:relative;
+	top:50%;
+	margin-top:-10px;
+}
+
+.statValue{
+	font-weight:bold;
+	font-size:28px;
+	position:absolute;
+	text-align:center;
+	top:50%;
+	width:100%;
+}
+
+.statValue>.small{
+	display:inline-block;
+	font-size:18px;
+}
+
+#obdobje {
+    line-height: 20px;
+    margin-top: -15px;
+}
+
+
+.button{
+	display:inline-block;
+	width:18px;
+	height:18px;
+	cursor:pointer;
+}
+
+.button>img{
+	width:18px;
+	height:18px;
+}
+
+button{
+	letter-spacing:1px;
+	background: none repeat scroll 0% 0% #32A6A6;
+	padding: 15px 20px 13px;
+	border-bottom: 2px solid #196A73;
+	color: #FFF;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.85em;
+	cursor: pointer;
+	display: inline-block;
+	width: 185px;
+	text-align: center;
+	text-decoration: none;
+
+
+}
+
+select{
+	background:#196A73;
+	padding:5px;
+	font-size:16px;
+	width:120px;
+	margin-bottom:10px;
+	color: white;
+	border:none;
+}
+input{
+	background:white;
+	padding:5px;
+	font-size:16px;
+	width:120px;
+	margin-bottom:10px;
+	border: 2px solid lightgray;
+	color: #3B3B3B;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+
+option{
+	font-size:16px;
+}
+
+.shadow{
+	background: rgba(25, 106, 125, 0.8);
+	width:100%;
+	height:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	display:none;
+}
+
+.popup{
+	width:500px;
+	height:500px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-250px;
+	margin-left:-250px;
+	background:white;
+	display:none;
+}
+
+table .button{
+	margin-left:8px;
+}
+
+.popup h2{
+	margin:20px 30px;
+}
+
+.popup>.item{
+	display:block;
+	margin:0 50px;
+}
+
+.popup .itemTitle{
+	width:165px;
+	display:inline-block;
+	text-align:right;
+	margin-right:15px;
+}
+
+.popup select{
+	background:White;
+	color:black;
+	border: 2px solid lightgray;
+	color: #3B3B3B;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+
+#btnDodaj{
+	position:absolute;
+	right:20px;
+	top:5px;
+}
+
+#btnDa{
+	margin: 40px;
+	background:#C8D94A;
+}
+
+.popup.dialog{
+	height:200px;
+}
+
+.btnShrani{
+	background: #C8D94A;
+	border-color:#A1BF36;
+	height: 50px;
+	position: absolute;
+	top: 450px;
+	left: 0px;
+	width: 100%;
+	outline:none;
+	text-shadow: 2px 2px 6px #A1BF36;
+}
+
+input#leto{
+	width:50px;
+	margin-left:10px;
+}
+
+input#ura{
+	width:20px;
+	text-align:right;
+}
+input#minuta{
+	width:20px;
+	text-align:right;
+	margin-left:10px;
+}
+input#sekunda{
+	width:20px;
+	text-align:right;
+	margin-left:10px;
+}
