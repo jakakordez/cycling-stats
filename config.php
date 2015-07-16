@@ -2,12 +2,14 @@
 // Config file for cycling stats page
 
 // Language:
-$GLOBALS['lan'] = 'sl_SI';	   // Slovenian
+$GLOBALS['lan'] = 'en_US';
 // English     - 'en_US'
 // Slovenian   - 'sl_SI'
 
 // Database settings
-$db_host = "localhost";
-$db_name = "kolo";
-$username = 'root';
-$password = '';
+$GLOBALS['db_host'] = "localhost";
+$GLOBALS['db_name'] = "kolo";
+$GLOBALS['username'] = 'root';
+$GLOBALS['password'] = '';
+
+?>

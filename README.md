@@ -18,3 +18,17 @@ You will need a PHP server with MySQL database
 * Import MySQL table structure
 * Configure MySQL credentials and interface language in config.php if necessary
 * You are done :)
+
+# Screenshots
+
+## Overview
+
+![Overview](Screenshots/overview.png "Overview")
+
+## Records
+
+![Records](Screenshots/records.png "Records")
+
+## Record editing
+
+![Record editing](Screenshots/edit.png "Record editing")
