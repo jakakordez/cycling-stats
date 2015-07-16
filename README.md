@@ -1,5 +1,5 @@
 # Cycling stats
-This is a simple tool for tracking cycling stats. You must insert data (distance, time, average speed, ...) from your cycling computer each month and then reset it. The app interface language is Slovenian, but I plan to add translations.
+This is a simple tool for tracking cycling stats. You must insert data (distance, time, average speed, ...) from your cycling computer each month and then reset it. Default app interface language is Slovenian, but you can switch to English as well.
 
 # Features
 * Storing/editing cycling computer data
@@ -16,5 +16,5 @@ This is a simple tool for tracking cycling stats. You must insert data (distance
 You will need a PHP server with MySQL database
 * Clone repository in a shared folder
 * Import MySQL table structure
-* Configure MySQL credentials in /php/sql.php if necessary
+* Configure MySQL credentials and interface language in config.php if necessary
 * You are done :)

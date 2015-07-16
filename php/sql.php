@@ -1,14 +1,13 @@
 <?php
-	$db_host = "localhost";
-	$db_name = "kolo";
-	$username = 'root';
-	$password = '';
+	include "../config.php";
+	include "translation.php";
+
 	$options = array(
 		PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
 	);
 
 	$db = new PDO("mysql:host=$db_host;dbname=$db_name", $username, $password, $options);
-	$db->prepare("SET lc_time_names='sl_SI'")->execute();
+	$db->prepare("SET lc_time_names='".$GLOBALS['lan']."'")->execute();
 	$meseci = $db->prepare("SELECT MONTH(Leto) as M, YEAR(Leto) as Y, CONCAT(MONTHNAME(Leto), ' ', YEAR(Leto)) as Mesec FROM `zapisi` group by Leto order by Leto");
 	$meseci->execute();
 	$meseci = $meseci->fetchAll();
