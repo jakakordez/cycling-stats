@@ -60,6 +60,7 @@ function getMonth($v){
 }
 
 function getMonthNumber($m){
+  if($GLOBALS['lan'] == 'sl_SI') return $m;
    $meseci = array("januar"=>1, "februar"=>2, "marec"=>3, "april"=>4, "maj"=>5, "junij"=>6, "julij"=>7, "avgust"=>8, "september"=>9, "oktober"=>10, "november"=>11, "december"=>12);
 	$k = array_search($m, $GLOBALS['translation'][$GLOBALS['lan']]);
    return $meseci[$k];

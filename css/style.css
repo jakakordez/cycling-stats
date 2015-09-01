@@ -142,7 +142,7 @@ option{
 
 .popup{
 	width:500px;
-	height:500px;
+	height:510px;
 	position:fixed;
 	top:50%;
 	left:50%;
@@ -202,7 +202,7 @@ table .button{
 	border-color:#A1BF36;
 	height: 50px;
 	position: absolute;
-	top: 450px;
+	top: 460px;
 	left: 0px;
 	width: 100%;
 	outline:none;
