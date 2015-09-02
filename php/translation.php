@@ -28,7 +28,9 @@ $GLOBALS['translation']['en_US'] = array(
   'september' => 'September',
   'oktober' => 'October',
   'november' => 'November',
-  'december' => 'December'
+  'december' => 'December',
+  'Podatki' => 'Data',
+  'Izvoz' => 'Export',
 );
 
 function gs($value){

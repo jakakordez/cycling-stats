@@ -18,6 +18,9 @@ $(function(){
    $("#btnDodaj").click(function(){
       edit(0);
    });
+   $("#btnIzvoz").click(function(){
+     window.open("php/export.php");
+   });
 });
 
 function loadRecords(){

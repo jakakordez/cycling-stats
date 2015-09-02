@@ -84,7 +84,12 @@
 				</table>
 				</div>
 			</div>
-			<div class="section">
+
+      <div class="section">
+        <h2><?php gs("Podatki"); ?></h2>
+        <button id="btnIzvoz"><?php gs("Izvoz"); ?></button>
+      </div>
+      <div class="section">
 				<br><br><br><br>
 			</div>
 		</div>
